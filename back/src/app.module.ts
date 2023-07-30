@@ -1,10 +1,10 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { PokeIndexModule } from './modules/poke-index/poke-index.module';
+import { PokeApiModule } from './modules/poke-api/poke-api.module';
 
 @Module({
-  imports: [PokeIndexModule],
+  imports: [PokeApiModule],
   controllers: [AppController],
   providers: [AppService],
 })
