@@ -16,7 +16,6 @@ export class PokemonItemComponent implements OnInit{
   }
 
   ngOnInit() {
-    console.log(this.pokemon)
     this.http.get<{sprites: {front_default: string}}>(this.pokemon.url).subscribe(
       (response) => {
         this.imageUrl = response?.sprites?.front_default

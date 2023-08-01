@@ -26,7 +26,6 @@ export class PokemonListComponent implements OnInit {
     this.loading = true
     this.http.get<ManyPokemons>(`http://localhost:3000/poke-api/pokemon-list`).subscribe(
       (response) => {
-        console.log(response)
         this.pokemons = response.items;
         this.totalPokemons = response.count
       },

@@ -6,7 +6,7 @@ import { ManyPokemons } from './dto/pokemon.entity';
 export class PokeApiService {
   pokemonClient = new PokemonClient();
   async getListOfPokemon(): Promise<ManyPokemons> {
-    const pokemons = await this.pokemonClient.listPokemons(0, 3);
+    const pokemons = await this.pokemonClient.listPokemons(0, 100);
     return {
       count: pokemons.count,
       items: pokemons.results,
