@@ -3,7 +3,16 @@ import {Route} from "@angular/router";
 
 export const routes: Route[] = [
   {
-    path: ``,
+    path: `pokemon-list`,
     component: PokemonListComponent
+  },
+  {
+    path: `my-pokemon`,
+    component: PokemonListComponent
+  },
+  {
+    path: ``,
+    redirectTo: `/pokemon-list`,
+    pathMatch: `full`,
   }
 ];
