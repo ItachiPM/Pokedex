@@ -9,6 +9,7 @@ import {TopBarComponent} from "./components/top-bar/top-bar.component";
 import { PokemonItemComponent } from './components/pokemon-item/pokemon-item.component';
 import { PokemonTypeComponent } from './components/pokemon-type/pokemon-type.component';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
+import {ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { SearchBarComponent } from './components/search-bar/search-bar.component
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    NgOptimizedImage
+    NgOptimizedImage,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

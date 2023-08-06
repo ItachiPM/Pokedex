@@ -4,14 +4,14 @@
   align-items: center;
   margin: 5px auto;
   background-color: var(--pokemon-yellow);
-  width: 30%;
+  width: 40%;
   height: 40px;
   border-radius: 20px;
 }
 
 .search-bar input {
   padding: 5px 10px;
-  width: 83%;
+  width: 80%;
   border-radius: 20px;
   border: 1px solid var(--pokemon-blue);
   font-size: 16px;
