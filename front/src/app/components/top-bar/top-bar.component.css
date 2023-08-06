@@ -1,14 +1,14 @@
 .header {
   width: 100%;
   height: 190px;
-  background-color: rgb(255 203 5);
+  background-color: var(--pokemon-yellow);
   text-align: center;
   align-items: center;
   margin-bottom: 10px;
 }
 
 .nav {
-  background-color: rgb(54 99 173);
+  background-color: var(--pokemon-blue);
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -21,14 +21,14 @@
   text-decoration: none;
   font-size: 20px;
   color: black;
-  border: 5px solid rgb(54 99 173);
+  border: 5px solid var(--pokemon-blue);
   border-radius: 15px;
 }
 
 .nav a:hover {
-  background-color: rgb(255 203 5);
+  background-color: var(--pokemon-yellow);
 }
 
 .nav a.active {
-  background-color: rgb(255 203 5);
+  background-color: var(--pokemon-yellow);
 }
