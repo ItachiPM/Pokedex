@@ -1,0 +1,30 @@
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px auto;
+  background-color: var(--pokemon-yellow);
+  width: 30%;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.search-bar input {
+  padding: 5px 10px;
+  width: 83%;
+  border-radius: 20px;
+  border: 1px solid var(--pokemon-blue);
+  font-size: 16px;
+  background-color: var(--pokemon-grey);
+}
+
+.search-bar button {
+  padding: 5px;
+  margin-left: 5px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 1px solid var(--pokemon-blue);
+  background-color: var(--pokemon-blue);
+  color: white;
+  cursor: pointer;
+}
