@@ -27,7 +27,7 @@ export class SearchBarComponent {
         console.log(response)
       },
       () => {
-        console.error(`can't load pokemon list`)
+        console.error(`can't load pokemon`)
       }
     )
   }
