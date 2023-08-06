@@ -1,0 +1,113 @@
+.pokemon-type-component {
+  width: 70px;
+  height: 25px;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.pokemon-type-component p {
+  margin: 0;
+  font-family: "Fira Code Retina";
+  font-size: 18px;
+}
+
+.normal {
+  background-color: rgb(128, 123, 125);
+  color: black;
+}
+
+.fighting {
+  background-color: rgb(110, 60, 55);
+  color: white;
+}
+
+.flying {
+  background-color: rgb(138, 137, 212);
+  color: black;
+}
+
+.poison {
+  background-color: rgb(148, 101, 155);
+  color: black;
+}
+
+.ground {
+  background-color: rgb(180, 144, 113);
+  color: black;
+}
+
+.rock {
+  background-color: rgb(191, 160, 71);
+  color: black;
+}
+
+.bug {
+  background-color: rgb(197, 193, 122);
+  color: black;
+}
+
+.grass {
+  background-color: rgb(123, 188, 109);
+  color: black;
+}
+
+.electric {
+  background-color: rgb(210, 169, 0);
+  color: black;
+}
+
+.psychic {
+  background-color: rgb(229, 146, 169);
+  color: black;
+}
+
+.ghost {
+  background-color: rgb(98, 96, 165);
+  color: black;
+}
+
+.steel {
+  background-color: rgb(153, 157, 160);
+  color: black;
+}
+
+.fire {
+  background-color: rgb(231, 131, 16);
+  color: black;
+}
+
+.water {
+  background-color: rgb(61, 164, 241);
+  color: black;
+}
+
+.ice {
+  background-color: rgb(116, 201, 225);
+  color: black;
+}
+
+.dragon {
+  background-color: rgb(101, 85, 225);
+  color: black;
+}
+
+.dark {
+  background-color: rgb(93, 63, 64);
+  color: black;
+}
+
+.fairy {
+  background-color: rgb(227, 152, 225);
+  color: black;
+}
+
+.unknown {
+  background-color: rgb(248, 247, 247);
+  color: black;
+}
+
+.shadow {
+  background-color: rgb(52, 52, 52);
+  color: white;
+}

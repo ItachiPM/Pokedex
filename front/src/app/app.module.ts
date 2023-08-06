@@ -7,13 +7,15 @@ import {HttpClientModule} from "@angular/common/http";
 import {NgOptimizedImage} from "@angular/common";
 import {TopBarComponent} from "./components/top-bar/top-bar.component";
 import { PokemonItemComponent } from './components/pokemon-item/pokemon-item.component';
+import { PokemonTypeComponent } from './components/pokemon-type/pokemon-type.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PokemonListComponent,
     TopBarComponent,
-    PokemonItemComponent
+    PokemonItemComponent,
+    PokemonTypeComponent
   ],
   imports: [
     BrowserModule,
