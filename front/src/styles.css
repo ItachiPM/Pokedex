@@ -2,9 +2,11 @@
   --pokemon-yellow: rgb(255 203 5);
   --pokemon-blue: rgb(54 99 173);
   --pokemon-grey: #f5f5f5;
+  --font-family: "Fira Code Retina";
 }
 
 body {
+  font-family: var(--font-family);
   margin: 0;
   padding: 0;
   background: linear-gradient(-45deg, var(--pokemon-yellow), var(--pokemon-blue));

@@ -10,6 +10,7 @@ export interface PokemonApiEntity {
   sprites: PokemonSprites;
   species: NamedAPIResource;
   types: PokemonType[];
+  stats?: PokemonStat[]
 }
 
 export interface PokemonType {
@@ -31,4 +32,10 @@ export interface PokemonSprites {
 export interface NamedAPIResource {
   name: string;
   url: string;
+}
+
+export interface PokemonStat {
+  stat: NamedAPIResource;
+  effort: number;
+  base_stat: number;
 }

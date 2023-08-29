@@ -2,13 +2,14 @@
   text-align: center;
   margin: 5px;
   background-color: var(--pokemon-grey);
-  padding: 5px
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .pokemon-item p {
   margin: 0;
   font-size: 20px;
-  font-family: "Fira Code Retina";
+  font-family: var(--font-family);
 }
 
 .pokemon-item p::first-letter {

@@ -10,6 +10,13 @@ import { PokemonItemComponent } from './components/pokemon-item/pokemon-item.com
 import { PokemonTypeComponent } from './components/pokemon-type/pokemon-type.component';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
 import {ReactiveFormsModule} from "@angular/forms";
+import {ActionReducerMap, StoreModule} from "@ngrx/store";
+import {pokemonReducer} from "./store/pokemon/pokemon.reducer";
+import {State} from "./store/state.model";
+
+const reducers: ActionReducerMap<State, any> = {
+  pokemon: pokemonReducer
+}
 
 @NgModule({
   declarations: [
@@ -18,14 +25,15 @@ import {ReactiveFormsModule} from "@angular/forms";
     TopBarComponent,
     PokemonItemComponent,
     PokemonTypeComponent,
-    SearchBarComponent
+    SearchBarComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     NgOptimizedImage,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    StoreModule.forRoot(reducers)
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -8,7 +8,7 @@
 
 .pokemon-type-component p {
   margin: 0;
-  font-family: "Fira Code Retina";
+  font-family: var(--font-family);
   font-size: 18px;
 }
 
