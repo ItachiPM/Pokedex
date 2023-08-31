@@ -10,5 +10,5 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(-45deg, var(--pokemon-yellow), var(--pokemon-blue));
-  background-size: 100% 100%;
+  height: 100%;
 }

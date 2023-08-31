@@ -1,5 +1,8 @@
 <div>
-  <app-search-bar></app-search-bar>
+  <div class="search-bar">
+    <input type="text" [(ngModel)]="filterValue" placeholder="Pokemon name..." >
+    <button (click)="filterPokemon()">Search</button>
+  </div>
   <div class="pokemon-list">
     <app-pokemon-item *ngFor="let pokemon of pokemons" [pokemon]="pokemon"></app-pokemon-item>
   </div>

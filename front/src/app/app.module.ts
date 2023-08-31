@@ -8,8 +8,7 @@ import {NgOptimizedImage} from "@angular/common";
 import {TopBarComponent} from "./components/top-bar/top-bar.component";
 import { PokemonItemComponent } from './components/pokemon-item/pokemon-item.component';
 import { PokemonTypeComponent } from './components/pokemon-type/pokemon-type.component';
-import { SearchBarComponent } from './components/search-bar/search-bar.component';
-import {ReactiveFormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {ActionReducerMap, StoreModule} from "@ngrx/store";
 import {pokemonReducer} from "./store/pokemon/pokemon.reducer";
 import {State} from "./store/state.model";
@@ -25,7 +24,6 @@ const reducers: ActionReducerMap<State, any> = {
     TopBarComponent,
     PokemonItemComponent,
     PokemonTypeComponent,
-    SearchBarComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,6 +31,7 @@ const reducers: ActionReducerMap<State, any> = {
     HttpClientModule,
     NgOptimizedImage,
     ReactiveFormsModule,
+    FormsModule,
     StoreModule.forRoot(reducers)
   ],
   providers: [],
